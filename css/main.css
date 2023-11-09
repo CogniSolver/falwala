@@ -1,3 +1,12 @@
+:root{
+    --green: rgb(11, 216, 11);
+    --black: rgb(0, 0, 0);
+    --black-variant: rgba(0, 0, 0, 0.6);
+    --body-bg: rgb(234, 234, 234);
+    --muted-text-color: rgb(80, 80, 80);
+    --transparent-white-bg: rgba(250, 250, 250, 0.8);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,11 +22,12 @@ body{
     height: 100vh;
     width: 100%;
     overflow: auto;
-    background-color: rgb(234, 234, 234);
+    background-color: var(--body-bg);
+    transition: all 0.3s linear;
 }
 
 section{
-    height: 100%;
+    height: calc(100vh + 5rem);
     width: 100%;
 }
 
@@ -27,4 +37,27 @@ img{
 
 a{
     text-decoration: none;
+}
+
+button{
+    height: 5rem;
+    width: 18rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--black-variant);
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: 0.2s linear all;
+}
+
+button:hover{
+    background: var(--black);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
 }
