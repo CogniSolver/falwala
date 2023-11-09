@@ -1,33 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 12px;
-}
-
-body{
-    height: 200vh;
-    width: 100%;
-    overflow: auto;
-    background-color: rgb(234, 234, 234);
-}
-
-img{
-    height: 100%;
-}
-
-a{
-    text-decoration: none;
-}
-
 .header{
     position: fixed;
     height: 5rem;
     width: 100%;
-    background-color: rgb(250, 250, 250)
+    background-color: rgba(250, 250, 250, 0.8)
 }
 
 .container{
