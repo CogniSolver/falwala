@@ -1,3 +1,7 @@
+section#home{
+    height: calc(100vh + 5rem);
+}
+
 #home .container{
     background-image: url('../assets/banner1.jpg');
     background-size: cover;
