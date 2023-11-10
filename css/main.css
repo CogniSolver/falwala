@@ -19,6 +19,7 @@
 html{
     font-size: 12px;
     font-family:  sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -91,3 +92,19 @@ button:hover{
 .text-center{
     text-align: center;
 }
+
+
+footer{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color: white;
+}
+
