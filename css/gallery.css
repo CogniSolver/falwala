@@ -1,0 +1,31 @@
+section#gallery .container{
+    display: flex;
+    flex-direction: column;
+}
+
+section#gallery .container .title{
+    padding: 3rem 15rem;
+    position: relative;
+}
+
+.container .grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.container .grid .image{
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.grid .image img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.grid .image:hover img{
+    transform: scale(1.2);
+}

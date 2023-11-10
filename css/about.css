@@ -4,33 +4,8 @@ section#about .container{
 }
 
 section#about .container .title{
-    text-align: center;
     padding: 3rem 15rem;
     position: relative;
-}
-
-section#about .container .title h2 {
-    position: relative;
-    font-size: 5rem;
-    color: #121212;
-    font-weight: bold;
-}
-
-section#about .container .title h2::before {
-    position: absolute;
-    content: "";
-    background-color: var(--green);
-    width: 8rem;
-    height: 0.3rem;
-    bottom: 0;
-}
-
-section#about .container .title span {
-    font-size: 17px;
-    line-height: 25px;
-    color: #0a0a0a;
-    padding-top: 20px;
-    display: block;
 }
 
 section#about .container .about_img{

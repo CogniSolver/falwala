@@ -62,3 +62,31 @@ button:hover{
     height: 100%;
     width: 100%;
 }
+
+.title h2 {
+    position: relative;
+    font-size: 5rem;
+    color: #121212;
+    font-weight: bold;
+}
+
+.title h2::before {
+    position: absolute;
+    content: "";
+    background-color: var(--green);
+    width: 8rem;
+    height: 0.3rem;
+    bottom: 0;
+}
+
+.title span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #0a0a0a;
+    padding-top: 20px;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
