@@ -1,5 +1,6 @@
 :root{
     --green: rgb(11, 216, 11);
+    --green-shadow: rgba(18, 255, 1, 0.33);
     --black: rgb(0, 0, 0);
     --black-variant: rgba(0, 0, 0, 0.6);
     --body-bg: rgb(234, 234, 234);
