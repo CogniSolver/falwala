@@ -15,18 +15,18 @@
 .logo_section{
     width: 15%;
     height: 7rem;
-    background-image: url('../assets/lo_be.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .logo_section .logo{
     height: 100%;
+    width: 100%;
 }
 
 .logo img{
     position: relative;
-    top: -1rem;
+    top: -0.5rem;
     left: 0.5rem;
 }
 

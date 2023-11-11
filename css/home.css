@@ -1,5 +1,6 @@
 section#home{
     height: calc(100vh + 5rem);
+    position: relative;
 }
 
 #home .container{
@@ -20,9 +21,10 @@ section#home{
     font-weight: 600;
 }
 
-#home .container .text-box p:nth-child(2){
+#home .container .text-box p:nth-child(1){
     font-size: 7rem;
     font-weight: 600;
-    color: rgb(30, 210, 63);
+    color: var(--green);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
